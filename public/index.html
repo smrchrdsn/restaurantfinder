@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Restaurant Finder</title>
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<meta name="author" content="Sam Richardson">
+	<meta name="description" content="This page is a test for iBec Creative">
+	<!-- CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<!-- Favicon (The question mark fixed it not appearing) -->
+	<link rel="icon" href="favicon.ico?" type="image/x-icon">
+</head>
+<body>
+	<!-- Search Bar -->
+	<div class="header blue">
+		<form id="search-form">
+			<label for="input-field" id="searchbar-text">Where do you want to eat?</label>
+			<div id="input-container">
+				<input name="query" id="input-field" type="text" placeholder="e.g. Taqueria">
+				<img src="images/search-icon.svg" id="input-image"> <!-- Search icon / button -->
+			</div>
+		</form>
+	</div>
+	<!-- Current Location -->
+	<div class="blue" id="current-location" title="Current Location">
+		<img src="images/locate-icon.svg" id="location-image">
+	</div>
+	<!-- Map -->
+	<div id="map">
+		<p>Please enable JavaScript in your browser</p>
+	</div>
+	<!-- Scripts -->
+	<script src="scripts.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYZYjIASCVgSUHhEt7UoRvKUF6KCPMix0&libraries=places&callback=googleMapsDidLoad" async defer></script>
+</body>
+</html>
