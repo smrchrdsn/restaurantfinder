@@ -185,9 +185,7 @@ function showDetails(data) {
 	if (details.website !== undefined) {
 		website = '<h2 id="details-website"><a href="' +
 			details.website +
-			'" rel="noopener noreferrer" target="_blank">' +
-			details.website +
-			'</a></h2>';
+			'" rel="noopener noreferrer" target="_blank">Website</a></h2>';
 	}
 	
 	// Set text to show 'Open Now' or 'Closed'
