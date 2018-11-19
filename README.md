@@ -3,9 +3,11 @@ Test project for iBec
 Written by Sam Richardson
 
 ## Setup
+Navigate to the project's directory and run
 ```
 node app.js
 ```
+The site can then be accessed at
 ```
 http://localhost:3000
 ```
