@@ -1,6 +1,5 @@
 # Restaurant Finder
-Test project for iBec
-Written by Sam Richardson
+Test project for iBec developed by Sam Richardson
 
 ## Setup
 Navigate to the project's directory and run
