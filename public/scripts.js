@@ -6,7 +6,7 @@ var infowindow; // This will display place information
 function googleMapsDidLoad() {
 	// Load the MarkerWithLabels library -- this requires the Google Maps to have loaded already
 	var tag = document.createElement("script");
-	tag.src = 'src="markerwithlabel.js"'; // Locally hosted library from CDN -- Heroku blocks the CDN
+	tag.src = 'markerwithlabel.js'; // Locally hosted library from CDN -- Heroku blocks the CDN
 	document.getElementsByTagName('body')[0].appendChild(tag);
 	
 	// Create the map
