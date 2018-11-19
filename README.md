@@ -18,3 +18,4 @@ http://localhost:3000
 * Add accessibility attributes to HTML
 * Style Info Windows
 * Make phone numbers into links
+* Handle undefined parameters from place details
