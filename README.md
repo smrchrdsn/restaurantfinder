@@ -6,3 +6,6 @@ Written by Sam Richardson
 ```
 node app.js
 ```
+```
+http://localhost:3000
+```
