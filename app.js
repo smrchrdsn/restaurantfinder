@@ -40,7 +40,7 @@ app.post('/details', function(req, res) {
 	});	
 });
 
-// Listen on port 3000
-var server = app.listen(3000, function() {
-	console.log('App listening on port 3000');
+// Listen on port 3000 or defined by environment
+var server = app.listen(process.env.PORT || 3000, function() {
+	console.log('App listening on port 3000'); // Depending on the run environment it may not be port 3000
 });
